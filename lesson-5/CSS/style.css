@@ -1,0 +1,33 @@
+h2 {
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: bisque;
+}
+
+.border {
+  border: 1px solid red;
+}
