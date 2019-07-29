@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+}
+
+.container {
+  display: flex;
+  height: 366px;  
+  justify-content: space-around;
+  align-items: center;   
+  align-content: space-around;
+  margin-top: 125px;
+}
+
+.item {
+  background: #f9f9f9;
+  border: 0px solid;  
+  text-align: center;
+  margin: 0 15px;  
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 100px;
+}
+
+.name {
+  color: #000000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  /*margin-bottom: 25px; */
+}
+
+.price {
+  color: #000000;
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  /*margin-bottom: 25px;*/ 
+}
+
+.buy {
+  width: 200px;
+  height: 55px;
+  background-color: #f9f9f9;
+  border: 1px solid #23bac1;
+  font-family: Arial;
+  font-size: 13px;    
+  font-weight: bold;
+  color: #23bac1;
+}
+
+
+
+
