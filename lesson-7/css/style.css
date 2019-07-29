@@ -7,18 +7,21 @@ body {
 
 .container {
   display: flex;
+  width: 1139px;
   height: 366px;  
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;   
   align-content: space-around;
   margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item {
   background: #f9f9f9;
   border: 0px solid;  
   text-align: center;
-  margin: 0 15px;  
+  padding: 0 15px;  
 }
 
 h2 {
