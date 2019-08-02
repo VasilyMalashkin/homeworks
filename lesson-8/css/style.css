@@ -110,6 +110,7 @@ text-transform: uppercase;
   justify-content: space-between;
   flex-wrap: wrap; /*Если элементы перестают вмещаться в одну строчку, они переносятся на новую.*/
   margin-top: 100px;
+  color: #32325f;
 }
 .block {
   width: 23%;
