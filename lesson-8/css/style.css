@@ -21,6 +21,7 @@ color: #95989a;
 font-size: 20px;
 font-weight: 700;
 text-transform: uppercase;
+font-family: Arial;
 }
 .hero {
   padding-top: 70px;
@@ -35,6 +36,7 @@ text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Arial;
 }
 .main-text {
   width: 50%;
@@ -87,11 +89,26 @@ text-transform: uppercase;
   background-color: #5e72e4;
   display: inline-block;
 }
+/*Применил свойство display: inline-block;, 
+чтобы на планшете кнопка "Слушать отрывок" 
+не разделялась пополам, и была единой.
+
+https://webref.ru/css/display
+Это значение генерирует блочный элемент, 
+который обтекается другими элементами веб-страницы 
+подобно строчному элементу.
+
+Фактически такой элемент по своему действию похож 
+на встраиваемые элементы (вроде <img>). 
+При этом его внутренняя часть форматируется 
+как блочный элемент, а сам элемент — как строчный.*/
+
 /*Оформление секций*/
 .section {
   /*Внутренний отступ в секции*/
   padding-top: 100px;
   padding-bottom: 100px;
+  font-family: Arial;
 }
 .section-heading {
   color: #32325f;
@@ -133,6 +150,7 @@ text-transform: uppercase;
 .footer-wrap {
   display: flex;
   justify-content: space-between;
+  font-family: Arial;
 }
 .footer-block {
   width: 33%;
