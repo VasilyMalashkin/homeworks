@@ -84,6 +84,7 @@ text-transform: uppercase;
 }
 .btn-primary {
   background-color: #5e72e4;
+  display: inline-block;
 }
 /*Оформление секций*/
 .section {
@@ -131,7 +132,6 @@ text-transform: uppercase;
 .footer-wrap {
   display: flex;
   justify-content: space-between;
-
 }
 .footer-block {
   width: 33%;
