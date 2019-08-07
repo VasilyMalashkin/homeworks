@@ -5,8 +5,8 @@
   max-width: 1140px;
   width: 96%;    
 }
-img {
-  max-width: 100%;
+.main-image {
+  width: 100%;
 }
 .hero {
   background-color: #f4f5f7;
