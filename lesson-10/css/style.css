@@ -51,6 +51,16 @@ text-transform: uppercase;
   font-size: 48px;
   font-weight: 49;  
 }
+
+/*
+.btn-success {
+  background-color: #2dce89;
+}
+.btn-primary {
+  background-color: #5e72e4;
+}
+*/
+
 .main-text {   
   color: #32325f;
 }
